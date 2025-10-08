@@ -1,6 +1,11 @@
 DAILY CALORIE TRACKER
-The Daily Calorie Tracker is a projected designed to help users monitor and manage their calorie intake through a simple command line interface (CLI) program. This project combines python concepts like user input for user interaction, lists to store data, arithmetic operations to perform calculations, and if-else statement for decision making, and also applies f-strings for formatted output.
-The program begins by displaying a short introduction and welcoming message, explaining its purpose which is to record meals and calculate total calories. The user  is asked for the number of meals, name of each meal with its calories that the user consumed. These entries are stored in two separate lists, one for meal names and other for corresponding calorie values.
+The Daily Calorie Tracker is a projected designed to help users monitor and manage their calorie intake through a simple command line interface (CLI) program.
+This project combines python concepts like user input for user interaction, lists to store data, arithmetic operations to perform calculations, and if-else statement for decision making, and also applies f-strings for formatted output.
+The program begins by displaying a short introduction and welcoming message, explaining its purpose which is to record meals and calculate total calories.
+The user  is asked for the number of meals, name of each meal with its calories that the user consumed.
+These entries are stored in two separate lists, one for meal names and other for corresponding calorie values.
 Once all the meal data is collected, the program performs basic arithmetic calculaions to determine the total calories consumed, the average calories per meal, and the comparison between the total calorie intake and the user's daily calorie limit.  
-Using conditional statements (if-else), the program checks whether the user has exceeded their calorie limit. If the total calories surpass  the limit, a warning message is displayed, otherwise the program congratulates the user for staying within their calorie limit.
-To enhance readability and user experience, the results are displayed in formatted summary table using f-strings and special characters such as tabs and newlines. This is to make the output look structured, showing each meal alongside its calorie count, followed by total and average calorie values.
+Using conditional statements (if-else), the program checks whether the user has exceeded their calorie limit.
+If the total calories surpass  the limit, a warning message is displayed, otherwise the program congratulates the user for staying within their calorie limit.
+To enhance readability and user experience, the results are displayed in formatted summary table using f-strings and special characters such as tabs and newlines.
+This is to make the output look structured, showing each meal alongside its calorie count, followed by total and average calorie values.
