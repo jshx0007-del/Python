@@ -12,7 +12,7 @@ def main():
 
     while True:
         print("\nMenu:")
-        print("1. Analyze a mew class")
+        print("1. Analyze a new class")
         print("2. Exit")
 
         choice = input("Enter your choice (1/2): ")
@@ -134,4 +134,5 @@ def main():
             print("\nInvalid choice! Please select 1 or 2.")
 
 if __name__ == "__main__":
+
     main()
