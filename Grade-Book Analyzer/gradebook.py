@@ -103,8 +103,8 @@ def main():
 # ---TASK 5--- #
 
             def get_pass_fail_lists(marks_dict):
-                passed_students = [name for name, marks in marks_dict.items() if marks >= 40]
-                failed_students = [name for name, marks in marks_dict.items() if marks < 40]
+                passed_students = [name for name, marks in marks_dict.items() if marks >= 60]
+                failed_students = [name for name, marks in marks_dict.items() if marks < 60]
                 return passed_students, failed_students
 
             passed, failed = get_pass_fail_lists(marks)
@@ -134,4 +134,5 @@ def main():
             print("\nInvalid choice! Please select 1 or 2.")
 
 if __name__ == "__main__":
+
     main()
